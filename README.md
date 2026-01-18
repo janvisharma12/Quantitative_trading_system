@@ -31,21 +31,21 @@ The system is designed to be **reproducible, extensible, and interview-ready**.
 ```
 ├── data/ # Raw & processed CSV datasets
 ├── notebooks/ # Research & analysis notebooks
-│ ├── 01_data_acquisition.ipynb
-│ ├── 02_data_cleaning.ipynb
-│ ├── 03_feature_engineering.ipynb
-│ ├── 04_regime_detection.ipynb
-│ ├── 05_baseline_strategy.ipynb
-│ ├── 06_ml_models.ipynb
-│ └── 07_outlier_analysis.ipynb
+│     ├── 01_data_acquisition.ipynb
+│     ├── 02_data_cleaning.ipynb
+│     ├── 03_feature_engineering.ipynb
+│     ├── 04_regime_detection.ipynb
+│     ├── 05_baseline_strategy.ipynb
+│     ├── 06_ml_models.ipynb
+│     └── 07_outlier_analysis.ipynb
 ├── src/ # Production-ready Python modules
-│ ├── data_utils.py
-│ ├── features.py
-│ ├── greeks.py
-│ ├── regime.py
-│ ├── strategy.py
-│ ├── backtest.py
-│ └── ml_models.py
+│     ├── data_utils.py
+│     ├── features.py
+│     ├── greeks.py
+│     ├── regime.py
+│     ├── strategy.py
+│     ├── backtest.py
+│     └── ml_models.py
 ├── models/ # Saved ML models
 ├── results/ # Strategy metrics & outputs
 ├── plots/ # Visualizations
