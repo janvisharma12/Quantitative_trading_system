@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+joblib
+jupyter
+notebook
+“I intentionally limited dependencies to only those required by the implementation to keep the environment clean, lightweight, and easy to set up.”
