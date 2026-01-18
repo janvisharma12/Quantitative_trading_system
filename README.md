@@ -28,6 +28,7 @@ The system is designed to be **reproducible, extensible, and interview-ready**.
 ---
 
 ## 🗂 Repository Structure
+```
 ├── data/ # Raw & processed CSV datasets
 ├── notebooks/ # Research & analysis notebooks
 │ ├── 01_data_acquisition.ipynb
@@ -50,7 +51,7 @@ The system is designed to be **reproducible, extensible, and interview-ready**.
 ├── plots/ # Visualizations
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
@@ -148,6 +149,8 @@ Each strategy is evaluated on:
 git clone <repository-url>
 cd quantitative-trading-system
 pip install -r requirements.txt
+```
+
 Then run notebooks sequentially:
 notebooks/01_data_acquisition.ipynb
 →
